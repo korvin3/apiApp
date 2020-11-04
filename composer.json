@@ -1,0 +1,26 @@
+{
+    "name": "korvin/api_app",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "phpunit/phpunit": "^9.4",
+        "symfony/dotenv": "^5.1",
+        "ext-json": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Vlad",
+            "email": "korvin96@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Test\\": "test/"
+        }
+    }
+}
